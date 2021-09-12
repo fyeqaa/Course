@@ -1,0 +1,97 @@
+
+/***********base styles - mobile first****************/
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: Times;
+font-weight: bold;
+position: relative;
+	}
+h1
+{
+	color: black;
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+	padding-bottom: 30px;
+}
+.section
+{
+	border: 2px black;
+	width: 450px;
+	padding-top: 10px;
+	background-color: grey;
+	
+	margin:10px;
+}
+
+
+.title1
+{
+	background-color: green;
+	padding: 8px;
+	float: right;
+	text-align: center;
+	width: 100px;
+	color: white;
+	border: 2px black;
+}
+.title2
+{
+	background-color: pink;
+	padding: 8px;
+	width: 80px;
+	text-align: center;
+	float: right;
+	border: 2px black;
+}
+.title3
+{
+	background-color: white;
+	padding: 8px;
+width: 80px;
+text-align: center;
+	float: right;
+	border: 5px black;
+}
+.Desc{
+padding-top:40px;
+padding-left: 10px;
+padding-bottom: 10px;
+padding-right: 10px;
+margin: 5px;
+}
+
+ @media(min-width: 768px) and (max-width: 991px){
+          h1{ width:90%;
+              left: 35px;
+          }
+         .section{
+             margin:0px;
+             margin-bottom: 5%;  
+             width: 40%;
+             float: left;
+             left: 35px;
+         }
+
+         #section3{
+             clear: both;
+             width: 90%;
+             
+         }
+         #section1{
+             margin-right: 10%;
+         }
+
+       }
+@media(min-width: 992px) {
+          
+          .section{
+              margin:0px;
+              margin-right:2% ;
+              width:30%;
+              float:left;
+          }
+          #section1{margin-left: 2%;}
+          
+      }
